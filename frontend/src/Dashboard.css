@@ -1,0 +1,118 @@
+.Dashboard{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashboardOptions{
+    background-color: #ECEACF;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    border-right: 1.2px solid rgba(0, 0, 0, 0.559) ;
+}
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userProfile p{
+    color: rgba(0, 0, 0, 0.607);
+    font-size: 17px;
+    font-weight: 550;
+}
+
+
+.dashboardButton{
+    text-transform: none !important;
+}
+.dashboardButton:hover{
+    background-color: #26597829;
+   
+   
+}
+.dashboardButton.active{
+    background-color: #265878;
+    color: white;
+    
+}
+.noData{
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    text-align: center ;
+    align-items: center ;
+}
+
+.noData{
+    color: rgba(0, 0, 0, 0.539);
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.summary{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1.3px solid rgba(42, 41, 41, 0.559);
+    justify-content: space-between;
+    text-align: center;
+}
+.summary p{
+    margin: 0;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.607);
+
+}
+.details{
+    background-color: #f1f1d0;
+    border-bottom: 1.3px solid rgba(42, 41, 41, 0.559);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.details p{
+    margin: 0;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.607);
+
+}
+.details_value{
+    margin-left: 40px;
+}
+.dashboardImg{
+    width: 50px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.dashboardData{
+    background-color:  #e0e0c4;
+    flex: 1;
+}
+.dashboardData .data{
+    background-color: #ededc8;   
+}
+
+
+@media (max-width:560px){
+    .Dashboard{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+    .dashboardOptions{
+        width: 100%;
+        flex-direction: column;
+        border-right: 1.2px solid rgba(0, 0, 0, 0.559) ;
+    }
+    .userProfile{
+        width: 100% !important;
+    }
+ 
+ }
+ 

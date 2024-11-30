@@ -1,0 +1,29 @@
+.BookingAlert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .alerts{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .summaryCard .Card{
+     max-width: 400 !important;
+   background-color: #e7e5c0 !important;
+   box-shadow: 0 0 6px 0.5px black;
+
+  }
+
+.summaryInfo{
+    display: flex;
+    padding: 10px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+ 

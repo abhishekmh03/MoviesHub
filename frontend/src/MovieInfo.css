@@ -1,0 +1,57 @@
+.movieInfoContent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.movieCard{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    max-width: 650px !important;
+    background-color: rgba(207, 203, 197, 0.4) !important;
+    
+}
+.movieinfo{
+    color: black;
+    font-weight: 650;
+}
+
+
+.movie{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.img{
+     width: 300px !important;
+     height:100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+ /* Responsive */
+ @media (max-width:560px){
+    .movieCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;       
+        max-width: 300px !important; 
+    }
+    .movieInfoContent{
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        width: 300px !important;
+    }
+   }

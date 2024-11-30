@@ -1,0 +1,171 @@
+.AddFood{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+.food-container{
+    background-color: #f4f4d540;
+    border-right: 1.3px dotted black;
+    width: 70vw;
+    padding: 10px;
+}
+.foodNav{
+   text-align: center;
+}
+.foodbtn button{
+   background-color: transparent;
+   margin: 5px;
+   font-weight: 500;
+   padding: 3px 9px 3px 9px;
+   border-radius: 15px;
+   border: none;
+   background-color: rgba(197, 156, 236, 0.185);
+   outline: 1.5px solid rgb(77, 19, 130);
+   transition: background-color 0.3s, color 0.3s;
+}
+.foodbtn button:hover{
+  color: white;
+  background-color:  rgb(77, 19, 130) ;
+}
+.foodbtn button:active{
+    color: white;
+    background-color:  rgb(77, 19, 130) ;
+}
+.foodbtn .active-btn{
+    color: white;
+    padding: 3px 9px 3px 9px;
+    background-color:  rgb(77, 19, 130) ;
+}
+.wholecard{
+    display: flex;
+}
+.cardContent{
+    position: relative;
+    padding: 5px;
+}
+.foodAddbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 4px;
+    width: 200px;
+}
+
+.foodCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.foodCardMedia{
+    min-width: 130px;
+    height: 150px;
+    padding: 10px;
+}
+.foodcard{
+    width: 47%;
+    background-color: #e1eac4 !important;
+    height: 160px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.hide{
+   display: none !important;
+}
+
+
+/* Price css */
+.price-container{
+    flex: 1;
+    height: 100%;
+}
+.priceCard{
+    width: 100%;
+    border-radius: 0 !important;
+    background-color: #ededc8 !important;
+}
+.priceDistribution1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.642);
+    font-weight: 600;
+}
+.priceDistribution2{
+    margin-left: 0 !important;
+}
+.priceDistribution2 .foodOrderList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceHeading{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+}
+.totalbtndiv{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+.totalbtn{
+    font-size: 15.5px;
+    font-weight: 500;
+    background-color: rgba(51, 51, 229, 0.799);
+    align-items: center;
+    text-align: center;
+}
+.totalbtn:hover{
+    outline: 1px solid rgb(51, 51, 229);
+    background-color: rgba(51, 51, 229, 1);
+}
+
+
+/* responsive */
+@media (max-width:560px){
+    .AddFood{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+       
+    }
+    .food-container{
+        width: 100%;
+        padding: 10px;
+    }
+    .foodcard{
+        width: 100%;
+        height: 170px;
+        margin: 10px 5px 10px 5px;
+    }
+
+}
+@media (min-width: 561px) and (max-width: 1000px) {
+    .food-container{
+        width: 60%;
+    }
+    .foodcard{
+        min-width: 75%;
+        height: 170px;
+        margin: 10px 5px 10px 5px;
+    }
+    .foodCards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    
+    }
+
+
+}
